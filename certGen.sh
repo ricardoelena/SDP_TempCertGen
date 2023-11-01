@@ -83,3 +83,4 @@ login () {
         echo $applianceid
 
         update_appliance "update" $applianceId
+sudo init 6
