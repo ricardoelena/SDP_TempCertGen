@@ -28,7 +28,6 @@ server=$1 #server parameter expected as arg
 base="https://$server:8443/admin" #base expects port 8443
 login="https://$server:8443/admin/login"
 applianceurl="https://$server:8443/admin/appliances"
-deviceid=`uuidgen | tr "[:upper:]" "[:lower:]"` #every login a random uuid will be generated
 token="" #token placeholder
 currentDate=`date -u +%s`
 tokenDate="" #token expiration date placeholder
